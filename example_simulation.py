@@ -21,12 +21,12 @@ Debye = wd*kb/realDelta
 
 
 #Simulation parameters
-cycles = 10000 #number of iterations
+cycles = 1 #number of iterations
 spectrum = alpha2F   #phonon spectrum used
 control = True #whether or not control variables are printed
 
 stepsize = [1/200]
-Q = np.arange[10000]
+Q = [10000]
 spectra = [alpha2F]
 
 #we use lists to be able to quickly switch between different imput parameters
